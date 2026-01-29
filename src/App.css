@@ -1,0 +1,191 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+  min-height: 100vh;
+  background: #f7f1e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.content {
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.brand {
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  color: #5a3b2e;
+  margin-bottom: 2rem;
+}
+
+.headline {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem;
+  color: #4b2e22;
+  line-height: 1.15;
+  margin-bottom: 1.5rem;
+}
+
+.headline span {
+  color: #d4af37;
+}
+
+.subtext {
+  max-width: 560px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  color: #6b4a3b;
+}
+
+.pill {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  border-radius: 30px;
+  background: #e9dfd3;
+  color: #5a3b2e;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.cta-text {
+  font-size: 0.95rem;
+  color: #6b4a3b;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.form input {
+  padding: 0.9rem 1.2rem;
+  border-radius: 10px;
+  border: 1px solid #e0d2c2;
+  min-width: 260px;
+  font-size: 0.9rem;
+}
+.form input:hover{
+  box-shadow: 0 5px 10px 0 #3b3b3b99;
+
+}
+.form button {
+  padding: 0.9rem 1.8rem;
+  border-radius: 10px;
+  border: none;
+  background: #d4af37;
+  color: #2f1b12;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.form button:hover {
+box-shadow: 0 5px 10px 0 #3b3b3b99;
+}
+
+@media (max-width: 600px) {
+  .headline {
+    font-size: 2.3rem;
+  }
+}
+
+.footer {
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #2f1b12;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #e5c36a;
+  border-radius: 50%;
+  background-color: lab(41.38% 7.11 11.58 / 0.056);
+
+}
+
+
+
+
+.copyright {
+  font-size: 0.85rem;
+  color: #a4a4a4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
